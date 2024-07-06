@@ -1,0 +1,70 @@
+/* Write your code here. */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #0f172a;
+  font-size: 50px;
+  font-family: Roboto;
+}
+.msg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.Information {
+  background-color: #0b69ff;
+  width: 80vw;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.Success {
+  background-color: #2dca73;
+  width: 80vw;
+  padding: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.Warning {
+  background-color: #ffb800;
+  width: 80vw;
+  padding: 10px;
+  color: white;
+  display: flex;
+  margin: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Error {
+  background-color: #ff0b37;
+  width: 80vw;
+  padding: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  align-items: center;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  padding: 15px;
+}
